@@ -10,7 +10,7 @@ public class test {
         test1((String s) -> new Integer(1), "hehehe");  //参数不输入 直接初始化一个值返回
         //test1(Integer::new, "hehehe"); //It's wrong
         test2(Apple::new,"hehehe");
-        //test2(Apple1::new,"hehehe");//Compile error
+        //test3(Apple1::new,"hehehe");//Compile error
         //I think XXX::new is equivalen to new XXX() but here shoe  it's  not
     }
 
